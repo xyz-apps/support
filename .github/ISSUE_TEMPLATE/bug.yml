@@ -7,17 +7,17 @@ body:
     attributes:
         value: |
             We're sorry to hear you have a problem. Can you help us solve it by providing the following details.
-    - type: dropdown
-      id: site
-      attributes:
-        label: Which site does it happen with?
-        description: Select one.
-        multiple: false
-        options:
-        - datetimeago.xyz
-        - stopwatchtimer.xyz
-        - timeago.xyz
-        - timerstopwatch.xyz
+  - type: dropdown
+    id: site
+    attributes:
+      label: Which site does it happen with?
+      description: Select one.
+      multiple: false
+      options:
+      - datetimeago.xyz
+      - stopwatchtimer.xyz
+      - timeago.xyz
+      - timerstopwatch.xyz
   - type: textarea
     id: what-happened
     attributes:
